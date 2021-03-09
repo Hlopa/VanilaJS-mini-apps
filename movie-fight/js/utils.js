@@ -9,4 +9,5 @@ const debounce = (callback, delay = 1000) => {
             callback.apply(null, args);
         }, delay)
     };
-};
+}; 
+
